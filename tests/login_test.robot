@@ -27,4 +27,4 @@ TC04 - Login Failed with Empty Username
 TC05 - Login Failed with Empty Password
     [Tags]    regression    negative
     login_page.Login To Parabank    john    ${EMPTY}
-    login_page.Verify Login Error Message    Please enter a username and password.
+    login_page.Verify Login Error Message    Please enter a username and password.ๅ
