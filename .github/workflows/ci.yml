@@ -28,9 +28,11 @@ jobs:
         run: rfbrowser init
 
       - name: Run Robot Framework Tests
-        # ตรงนี้เราจะรันแค่ Web Case ที่คุณทำผ่านแล้วก่อน
-        run: robot --listener "allure_robotframework;results/allure" --outputdir results tests/
-
+        id: robot_tests
+        continue-on-error: true  # ยอมให้สคริปต์พังและทำงานต่อ
+        run: |
+          robot --listener "allure_robotframework;results/allure" --outputdir results tests/
+      
       - name: Upload Test Results
         if: always()
         uses: actions/upload-artifact@v4
@@ -51,3 +53,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: allure-history
+
+      - name: Check Test Status
+        if: steps.robot_tests.outcome != 'success'
+        run: exit 1
