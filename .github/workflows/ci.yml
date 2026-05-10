@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Robot Framework Tests
         # ตรงนี้เราจะรันแค่ Web Case ที่คุณทำผ่านแล้วก่อน
-        run: robot --outputdir results tests/
+        run: robot --listener "allure_robotframework;results/allure" --outputdir results tests/
 
       - name: Upload Test Results
         if: always()
