@@ -24,9 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Initialize Playwright (rfbrowser)
+        run: rfbrowser init
+
       - name: Run Robot Framework Tests
         # ตรงนี้เราจะรันแค่ Web Case ที่คุณทำผ่านแล้วก่อน
-        run: robot --variable BROWSER:headlesschrome --outputdir results tests/
+        run: robot --outputdir results tests/
 
       - name: Upload Test Results
         if: always()
