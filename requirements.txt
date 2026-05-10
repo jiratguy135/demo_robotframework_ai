@@ -1,0 +1,6 @@
+robotframework
+robotframework-seleniumlibrary
+robotframework-browser
+robotframework-appiumlibrary
+pyyaml
+allure-robotframework

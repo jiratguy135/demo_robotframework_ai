@@ -1,0 +1,21 @@
+# Robot Framework Results
+results/
+log.html
+report.html
+output.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Playwright / Browser
+pw-browser/
+node_modules/
+.auth/
+
+# IDE
+.vscode/
+.idea/
