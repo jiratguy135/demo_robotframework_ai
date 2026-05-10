@@ -1,0 +1,4 @@
+# Locators for Parabank Login Page
+txt_username: "name=username"
+txt_password: "name=password"
+btn_login: "css=input[value='Log In']"
