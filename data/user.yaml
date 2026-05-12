@@ -1,0 +1,16 @@
+Register:
+  firstname: firstname_automation
+  lastname: lastname_automation
+  address: cmu101
+  city: cnx
+  state: cmu
+  zipcode: 50100
+  phonenumber: 1234567890
+  ssn: 1234567890
+  username: user_automation
+  password: password_automation
+  confirmpassword: password_automation
+
+Login:
+  username: user_automation
+  password: password_automation
