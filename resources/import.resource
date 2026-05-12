@@ -8,4 +8,8 @@ Resource    ${CURDIR}/common/common.resource
 
 # Locators & Pages
 Variables   ${CURDIR}/locators/web_locators/login_locator.yaml
+Variables   ${CURDIR}/locators/web_locators/register_locator.yaml
+Variables    ${CURDIR}/../data/user.yaml
+
 Resource    ${CURDIR}/pages/web_pages/login_page.resource
+Resource    ${CURDIR}/pages/web_pages/register_page.resource

@@ -1,0 +1,13 @@
+register_locators:
+  first_name: "id=customer.firstName"
+  last_name: "id=customer.lastName"
+  address_street: "id=customer.address.street"
+  address_city: "id=customer.address.city"
+  address_state: "id=customer.address.state"
+  address_zipcode: "id=customer.address.zipCode"
+  phone_number: "id=customer.phoneNumber"
+  ssn: "id=customer.ssn"
+  username: "id=customer.username"
+  password: "id=customer.password"
+  repeated_password: "id=repeatedPassword"
+  register_button: "xpath=//input[@value='Register']"
