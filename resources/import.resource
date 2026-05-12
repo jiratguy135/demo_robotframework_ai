@@ -4,6 +4,7 @@ Library    SeleniumLibrary
 
 Resource    ${CURDIR}/../data/variable.resource
 Resource    ${CURDIR}/common/setup_teardown.resource
+Resource    ${CURDIR}/common/common.resource
 
 # Locators & Pages
 Variables   ${CURDIR}/locators/web_locators/login_locator.yaml
