@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1438","TC01 - Login Success with Valid Credentials","","Sun May 10 06:47:05 UTC 2026","passed","Sun May 10 06:47:07 UTC 2026","Login Test","Tests","",""
-"","1280","TC04 - Login Failed with Empty Username","","Sun May 10 06:47:09 UTC 2026","passed","Sun May 10 06:47:11 UTC 2026","Login Test","Tests","",""
-"","6275","TC05 - Login Failed with Empty Password","","Sun May 10 06:47:11 UTC 2026","failed","Sun May 10 06:47:17 UTC 2026","Login Test","Tests","",""
-"","1260","TC02 - Login Failed with Invalid Username","","Sun May 10 06:47:07 UTC 2026","passed","Sun May 10 06:47:08 UTC 2026","Login Test","Tests","",""
-"","6319","test01","","Sun May 10 06:46:59 UTC 2026","passed","Sun May 10 06:47:05 UTC 2026","01 Api Setup","Tests","",""
-"","1374","TC03 - Login Failed with Invalid Password","","Sun May 10 06:47:08 UTC 2026","passed","Sun May 10 06:47:09 UTC 2026","Login Test","Tests","",""
