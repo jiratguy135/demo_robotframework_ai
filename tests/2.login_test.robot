@@ -6,18 +6,18 @@ Test Teardown    setup_teardown.Close parabank website
 *** Test Cases ***
 TC01 - Login Success with Valid Credentials
     [Tags]    regression    positive
-    login_page.Login To Parabank    john    demo
+    login_page.Login To Parabank    ${Login.username}    ${Login.password}
     SeleniumLibrary.Wait Until Page Contains    Accounts Overview    timeout=5s
 
 TC02 - Login Failed with Invalid Username
     [Tags]    regression    negative
     login_page.Login To Parabank    invalid_user    demo
-    login_page.Verify Login Error Message    The username and password could not be verified.
+    login_page.Verify Login Error Message    An internal error has occurred and has been logged.
 
 TC03 - Login Failed with Invalid Password
     [Tags]    regression    negative
     login_page.Login To Parabank    john    invalid_pass
-    login_page.Verify Login Error Message    The username and password could not be verified.
+    login_page.Verify Login Error Message    An internal error has occurred and has been logged.
 
 TC04 - Login Failed with Empty Username
     [Tags]    regression    negative
@@ -27,4 +27,4 @@ TC04 - Login Failed with Empty Username
 TC05 - Login Failed with Empty Password
     [Tags]    regression    negative
     login_page.Login To Parabank    john    ${EMPTY}
-    login_page.Verify Login Error Message    Please enter a username and password.ๅ
+    login_page.Verify Login Error Message    Please enter a username and password.

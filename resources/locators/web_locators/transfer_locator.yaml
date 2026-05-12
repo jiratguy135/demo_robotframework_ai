@@ -1,0 +1,6 @@
+transfer_locators:
+  amount_input: "id=amount"
+  from_account_select: "id=fromAccountId"
+  to_account_select: "id=toAccountId"
+  transfer_button: "xpath=//input[@value='Transfer']"
+  transfer_complete_message: "xpath=//h1[text()='Transfer Complete!']"
