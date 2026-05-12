@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1556","TC01 - Login Success with Valid Credentials","Tests","Tue May 12 15:02:10 UTC 2026","passed","Tue May 12 15:02:12 UTC 2026","Login Test","2","",""
+"","1382","TC04 - Login Failed with Empty Username","Tests","Tue May 12 15:02:15 UTC 2026","passed","Tue May 12 15:02:16 UTC 2026","Login Test","2","",""
+"","21427","TC01 - Register Success","Tests","Tue May 12 15:01:49 UTC 2026","failed","Tue May 12 15:02:10 UTC 2026","Register Test","1","",""
+"","1448","TC02 - Login Failed with Invalid Username","Tests","Tue May 12 15:02:12 UTC 2026","passed","Tue May 12 15:02:13 UTC 2026","Login Test","2","",""
+"","1536","TC03 - Login Failed with Invalid Password","Tests","Tue May 12 15:02:13 UTC 2026","passed","Tue May 12 15:02:15 UTC 2026","Login Test","2","",""
+"","2291","TC05 - Login Failed with Empty Password","Tests","Tue May 12 15:02:16 UTC 2026","passed","Tue May 12 15:02:18 UTC 2026","Login Test","2","",""
+"","3948","TC01 - Transfer Funds Successfully","Tests","Tue May 12 15:02:18 UTC 2026","passed","Tue May 12 15:02:22 UTC 2026","Transfer Test","3","",""
